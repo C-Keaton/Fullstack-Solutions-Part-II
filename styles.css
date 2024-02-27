@@ -1,3 +1,48 @@
+nav{
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 20pt;
+    width: 100%;
+    height: 60;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#redirects {
+    text-align: end;
+    font-style: normal;
+}
+
 body {
-    background-color: burlywood;
+    /* I had to search google for this */
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    /* Now all text color will change simultanously */
+    color: aliceblue;
+}
+
+.namePlate {
+    text-align: center;
+}
+
+#profilePic {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 60%;
+  
+}
+
+#profileBox {
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+    width: 90%;
+    height: 95%;
+}
+
+#homeQuote {
+    font-size: 29pt;
+    text-align: center;
 }
