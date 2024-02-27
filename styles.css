@@ -6,6 +6,11 @@ nav{
     height: 60;
 }
 
+/* Had to google this. The code overwrites the "a" component in the redirects display so that the purple and blue text is not present */
+a:visited {
+    color: aliceblue;
+}
+
 h1 {
     font-size: 30pt;
     color: aliceblue;
@@ -13,12 +18,14 @@ h1 {
 
 #redirects {
     text-align: end;
-    font-style: normal;
+    font-size: 27pt;
 }
+
 
 body {
     /* I had to search google for this */
-    background-image: url(./bg.jpg);
+    background-color: black;
+    background-image: url(./images/bg.jpg);
     background-size: cover;
     /* Now all text color will change simultanously */
     color: aliceblue;
@@ -33,14 +40,26 @@ body {
     margin: auto;
     width: 30%;
     height: 60%;
-  
 }
 
 #profileBox {
     background-color: rgb(22, 22, 22);
     margin: auto;
     width: 90%;
-    height: 95%;
+    height: 99%;
+}
+
+#portfolioTextBox {
+    background-color: darkblue;
+    display: flex;
+    margin: 10px;
+}
+
+#portfolioImage {
+    background-color: darkblue;
+    padding: 10;
+    width: 150px;
+    height: 170px;
 }
 
 #homeQuote {
