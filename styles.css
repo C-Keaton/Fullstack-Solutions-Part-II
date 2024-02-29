@@ -94,6 +94,19 @@ body {
     height: 80%;
 }
 
+#successBox {
+    background-color: midnightblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30;
+    font-size: 4rem;
+    text-align: center;
+    color: aliceblue;
+    width: 70%;
+    height: 80%;
+}
+
 #contactBox a {
     color: crimson;
 }
@@ -102,7 +115,7 @@ body {
     color: green;
 }
 
-#formSize input{
+#form input{
     width: 250;
 }
 
