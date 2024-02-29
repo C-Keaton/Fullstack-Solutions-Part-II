@@ -51,7 +51,7 @@ body {
     background-color: rgb(22, 22, 22);
     margin: auto;
     width: 90%;
-    height: 99%;
+    min-height: 100%;
 }
 
 #portfolioTextBox {
@@ -133,3 +133,46 @@ body {
     font-style: normal;
     text-align: center;
 }
+
+
+@media screen and (min-width: 765px) and (max-width: 992px){
+    body {
+        width: 95%;
+        min-height: 50.3%;
+    }
+  
+    #profilePic{
+        width: 75%;
+        height: 35%;
+    }
+
+    #portfolioTextBox {
+        background-color: darkblue;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    #portfolioTextBox:hover {
+        background-color: goldenrod;
+        transition: all 2s;
+        display: flex;
+        max-width: 95%;
+        margin: 10px;
+        height: auto;
+    }
+
+    #profileBox {
+        flex: 0 0 33.333%;
+    }
+
+    #form input{
+        width: 90%;
+    }
+    
+    #messageBox textarea{
+        min-width: 89%;
+        max-width: 90%;
+        min-height: 70;
+        max-height: 40%;
+    }
+  }
