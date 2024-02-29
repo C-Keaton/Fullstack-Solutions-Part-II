@@ -57,6 +57,7 @@ body {
 #portfolioTextBox {
     background-color: darkblue;
     display: flex;
+    flex-direction: row-reverse;
     margin: 10px;
     width: 170px;
     height: 190;
@@ -82,6 +83,35 @@ body {
     width: 1000;
 }
 
+#contactBox {
+    background-color: midnightblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: goldenrod;
+    width: 70%;
+    height: 80%;
+}
+
+#contactBox a {
+    color: crimson;
+}
+
+#contactBox a:hover {
+    color: green;
+}
+
+#formSize input{
+    width: 250;
+}
+
+#messageBox textarea{
+    min-width: 250;
+    max-width: 500;
+    min-height: 70;
+    max-height: 175;
+}
 
 #homeQuote {
     font-size: 3rem;

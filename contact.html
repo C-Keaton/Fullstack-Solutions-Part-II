@@ -6,7 +6,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <nav>
-            <!-- I tried to put the h1 and nav bar on the same line but did not succeed. -->
             <section id="redirects">
                 <a href="index.html">Home</a>
                 <a href="about.html" >About Me</a>
@@ -17,6 +16,25 @@
     </head>
 
     <body>
+        <section id="profileBox">
+            <section id="contactBox">
+                <h1>Fullstack Solutions-Contact Page</h1>
+                <h2>Contact me by putting your name, email, and message in thier respective fields</h2>
+                <form id="formSize">
+                    <label for="name">Name</label><br />
+                    <input type="text" name="Name" id="Name" required><br />
+    
+                    <label for="email">Email</label><br />
+                    <input type="email" name="Email" id="Email" required ><br />
 
+                    <section id="messageBox">
+                        <label for="message">Message</label><br />
+                        <textarea type="text" name="Message" id="Message" maxlength="250" size="40"></textarea><br />
+                    </section>
+
+                    <a href="./success.html"><button type="submit">Submit</label></a>
+                </form>
+            </section>
+        </section>
     </body>
 </html>
