@@ -6,9 +6,16 @@ nav{
     height: 60;
 }
 
-/* Had to google this. The code overwrites the "a" component in the redirects display so that the purple and blue text is not present */
+a {
+    color: aliceblue;
+}
+
 a:visited {
     color: aliceblue;
+}
+
+a:hover {
+    color: yellow;
 }
 
 h1 {
@@ -23,11 +30,9 @@ h1 {
 
 
 body {
-    /* I had to search google for this */
     background-color: black;
     background-image: url(./images/bg.jpg);
     background-size: cover;
-    /* Now all text color will change simultanously */
     color: aliceblue;
 }
 
@@ -53,16 +58,35 @@ body {
     background-color: darkblue;
     display: flex;
     margin: 10px;
+    width: 170px;
+    height: 190;
+    overflow: hidden;
+}
+
+#portfolioTextBox p {
+    user-select: all;
 }
 
 #portfolioImage {
     background-color: darkblue;
-    padding: 10;
+    padding: 10px;
     width: 150px;
     height: 170px;
 }
 
+#portfolioTextBox:hover {
+    background-color: goldenrod;
+    transition: all 2s;
+    display: flex;
+    margin: 10px;
+    width: 1000;
+}
+
+
 #homeQuote {
-    font-size: 29pt;
+    font-size: 3rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
