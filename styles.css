@@ -43,15 +43,15 @@ body {
 #profilePic {
     display: block;
     margin: auto;
-    width: 30%;
-    height: 60%;
+    width: 450;
+    height: 450;
 }
 
 #profileBox {
     background-color: rgb(22, 22, 22);
     margin: auto;
     width: 90%;
-    min-height: 100%;
+    height: 775;
 }
 
 #portfolioTextBox {
@@ -135,15 +135,15 @@ body {
 }
 
 
-@media screen and (min-width: 765px) and (max-width: 992px){
+@media screen and (max-width: 600px){
     body {
         width: 95%;
         min-height: 50.3%;
     }
   
     #profilePic{
-        width: 75%;
-        height: 35%;
+        width: 100;
+        height: 100;
     }
 
     #portfolioTextBox {
@@ -162,7 +162,8 @@ body {
     }
 
     #profileBox {
-        flex: 0 0 33.333%;
+        flex: 1 0 33.333%;
+        min-height: 200%;
     }
 
     #form input{
